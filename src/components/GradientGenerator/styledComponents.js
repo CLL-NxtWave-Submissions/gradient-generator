@@ -74,6 +74,7 @@ export const GradientColorPicker = styled.input`
   width: 8rem;
   height: 3.5rem;
   background-color: inherit;
+  cursor: pointer;
 `
 
 export const GradientGeneratorButton = styled.button`
