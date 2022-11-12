@@ -59,9 +59,7 @@ export const GradientColorPickersList = styled(GradientDirectionsList)`
   flex-wrap: nowrap;
 `
 
-export const GradientColorPickerContainer = styled(
-  GradientDirectionSelectionContainer,
-)`
+export const GradientColorPickerContainer = styled.li`
   margin: 1rem;
 `
 
