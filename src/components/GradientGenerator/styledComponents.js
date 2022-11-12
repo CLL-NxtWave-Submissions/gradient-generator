@@ -63,7 +63,7 @@ export const GradientColorPickersList = styled(GradientDirectionsList)`
 export const GradientColorPickerContainer = styled.li`
   margin: 1rem 2rem;
   margin-top: 0;
-  padding: 1rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
