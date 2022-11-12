@@ -70,6 +70,7 @@ export default class GradientGenerator extends Component {
 
     return (
       <GradientGeneratorBgContainer
+        data-testid="gradientGenerator"
         gradientDirection={selectedGradientDirection}
         gradientColor1={oldGradientColor1}
         gradientColor2={oldGradientColor2}

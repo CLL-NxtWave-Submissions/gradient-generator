@@ -11,7 +11,10 @@ const GradientDirectionItem = props => {
 
   return (
     <GradientDirectionItemContainer isSelected={isItemSelected}>
-      <GradientDirectionItemButton onClick={onDirectionButtonClick}>
+      <GradientDirectionItemButton
+        isSelected={isItemSelected}
+        onClick={onDirectionButtonClick}
+      >
         {displayText}
       </GradientDirectionItemButton>
     </GradientDirectionItemContainer>
