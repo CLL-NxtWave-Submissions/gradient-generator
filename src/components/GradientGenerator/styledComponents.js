@@ -70,10 +70,8 @@ export const GradientColorPickerContainer = styled.li`
 `
 
 export const GradientColorPicker = styled.input`
-  border: 0.05rem solid #334155;
-  width: 100%;
-  height: 100%;
-  padding: 1rem 3.5rem;
+  border: 0.0001rem solid #334155;
+  padding: 1.5rem 3.7rem;
   background-color: ${props => props.bgColor};
 `
 
