@@ -28,6 +28,7 @@ export default class GradientGenerator extends Component {
     oldGradientColor2: '#014f7b',
     newGradientColor1: '#8ae323',
     newGradientColor2: '#014f7b',
+    selectedGradientDirection: gradientDirectionsList[0].value,
   }
 
   onColorChange = colorChangeEvent => {
@@ -53,16 +54,23 @@ export default class GradientGenerator extends Component {
     })
   }
 
+  onGradientDirectionSelection = directionValue =>
+    this.setState({
+      selectedGradientDirection: directionValue,
+    })
+
   render() {
     const {
       oldGradientColor1,
       oldGradientColor2,
       newGradientColor1,
       newGradientColor2,
+      selectedGradientDirection,
     } = this.state
 
     return (
       <GradientGeneratorBgContainer
+        gradientDirection={selectedGradientDirection}
         gradientColor1={oldGradientColor1}
         gradientColor2={oldGradientColor2}
       >
