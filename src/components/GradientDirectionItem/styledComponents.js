@@ -6,13 +6,13 @@ export const GradientDirectionItemContainer = styled.li`
   align-items: center;
   background-color: #ffffff;
   color: #1e293b;
-  width: 45%;
+  width: 42%;
   margin: 0.2rem;
   padding: 1rem 3.5rem;
   border-radius: 0.6rem;
   opacity: ${props => (props.isSelected ? 1 : 0.5)};
   @media (min-width: 768px) {
-    width: 20%;
+    width: 22%;
   }
 `
 

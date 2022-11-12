@@ -63,16 +63,17 @@ export const GradientColorPickersList = styled(GradientDirectionsList)`
 export const GradientColorPickerContainer = styled.li`
   margin: 1rem 2rem;
   margin-top: 0;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 `
 
 export const GradientColorPicker = styled.input`
-  border: 0.0001rem solid #334155;
-  padding: 1.5rem 3.7rem;
-  background-color: ${props => props.bgColor};
+  border: none;
+  width: 10rem;
+  height: 3.5rem;
+  color: ${props => props.bgColor};
 `
 
 export const GradientGeneratorButton = styled.button`
