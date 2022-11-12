@@ -15,7 +15,7 @@ export const GradientGeneratorBgContainer = styled.div`
 `
 
 export const GradientGeneratorHeader = styled.h1`
-  color: #ffffff79;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -33,7 +33,7 @@ export const GradientDirectionSelectionContainer = styled.div`
 export const GradientGeneratorSubSectionText = styled.p`
   color: #ededed;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 `
 
@@ -57,17 +57,23 @@ export const GradientColorSelectionContainer = styled.form`
 export const GradientColorPickersList = styled(GradientDirectionsList)`
   justify-content: space-between;
   flex-wrap: nowrap;
+  margin-top: 0;
 `
 
 export const GradientColorPickerContainer = styled.li`
-  margin: 1rem;
+  margin: 1rem 2rem;
+  margin-top: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 export const GradientColorPicker = styled.input`
   border: 0.05rem solid #334155;
-  margin: 0 1rem;
   width: 100%;
-  padding: 1rem;
+  height: 100%;
+  padding: 1rem 3.5rem;
   background-color: ${props => props.bgColor};
 `
 
