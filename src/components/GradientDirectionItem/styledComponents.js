@@ -24,4 +24,6 @@ export const GradientDirectionItemButton = styled.button`
   cursor: pointer;
   padding: 0;
   margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
 `
