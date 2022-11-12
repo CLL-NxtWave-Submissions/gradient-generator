@@ -90,6 +90,7 @@ export default class GradientGenerator extends Component {
                 isItemSelected={
                   gradientDirectionsListItem.value === selectedGradientDirection
                 }
+                onDirectionItemSelection={this.onGradientDirectionSelection}
               />
             ))}
           </GradientDirectionsList>
