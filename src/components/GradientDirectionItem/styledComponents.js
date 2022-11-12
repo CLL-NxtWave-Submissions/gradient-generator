@@ -8,7 +8,7 @@ export const GradientDirectionItemContainer = styled.li`
   color: #1e293b;
   width: 45%;
   margin: 0.2rem;
-  padding: 1rem 2rem;
+  padding: 1rem 3.5rem;
   border-radius: 0.6rem;
   opacity: ${props => (props.isSelected ? 1 : 0.5)};
   @media (min-width: 768px) {
