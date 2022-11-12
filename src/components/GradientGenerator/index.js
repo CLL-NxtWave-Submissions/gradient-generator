@@ -110,6 +110,7 @@ export default class GradientGenerator extends Component {
                 type="color"
                 value={newGradientColor1}
                 onChange={this.onColorChange}
+                bgColor={newGradientColor1}
               />
             </GradientColorPickerContainer>
 
@@ -122,6 +123,7 @@ export default class GradientGenerator extends Component {
                 type="color"
                 value={newGradientColor2}
                 onChange={this.onColorChange}
+                bgColor={newGradientColor2}
               />
             </GradientColorPickerContainer>
           </GradientColorPickersList>
