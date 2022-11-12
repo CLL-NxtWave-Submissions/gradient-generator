@@ -87,6 +87,9 @@ export default class GradientGenerator extends Component {
               <GradientDirectionItem
                 key={gradientDirectionsListItem.directionId}
                 itemData={gradientDirectionsListItem}
+                isItemSelected={
+                  gradientDirectionsListItem.value === selectedGradientDirection
+                }
               />
             ))}
           </GradientDirectionsList>
