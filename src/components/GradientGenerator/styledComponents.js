@@ -11,7 +11,7 @@ export const GradientGeneratorBgContainer = styled.div`
   min-height: 100vh;
   margin: 0;
   padding: 2rem;
-  font-family: 'Roboto';
+  font-family: Roboto;
 `
 
 export const GradientGeneratorHeader = styled.h1`
