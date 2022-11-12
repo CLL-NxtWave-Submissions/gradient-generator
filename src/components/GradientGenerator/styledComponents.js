@@ -71,9 +71,9 @@ export const GradientColorPickerContainer = styled.li`
 
 export const GradientColorPicker = styled.input`
   border: none;
-  width: 10rem;
+  width: 8rem;
   height: 3.5rem;
-  color: ${props => props.bgColor};
+  background-color: inherit;
 `
 
 export const GradientGeneratorButton = styled.button`
