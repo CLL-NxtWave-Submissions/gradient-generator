@@ -1,13 +1,18 @@
 import styled from 'styled-components'
 
 export const GradientDirectionItemContainer = styled.li`
-  background-color: #ffffff79;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
   color: #1e293b;
-  width: 20%;
-  margin: 0.15rem;
+  width: 45%;
+  margin: 0.2rem;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
   opacity: ${props => (props.isSelected ? 1 : 0.5)};
   @media (min-width: 768px) {
-    width: 45%;
+    width: 20%;
   }
 `
 
@@ -17,5 +22,6 @@ export const GradientDirectionItemButton = styled.button`
   border-radius: 0.6rem;
   outline: none;
   cursor: pointer;
-  padding: 1rem;
+  padding: 0;
+  margin: 0;
 `
